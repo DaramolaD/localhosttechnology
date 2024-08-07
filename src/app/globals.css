@@ -62,9 +62,11 @@
 .borderStatus {
   border-radius: 50px 20px;
 }
+.sectionContainer {
+  max-width: 1536px;
+  width: 100%;
+  margin: auto;
+}
 
 @layer base {
-  body {
-    @apply bg-background text-foreground;
-  }
 }

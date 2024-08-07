@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="grid gap-5">
-      Local Tech Technology
+      <Header />
     </main>
   );
 }
