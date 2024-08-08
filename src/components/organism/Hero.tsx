@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
           </div>
           <Cta
-            primaryText="Book A Demo"
+            primaryText="Book A Call"
             primaryVariant="default"
             primarySize="lg"
             primaryOnClick={() => console.log("Book A Demo clicked")}

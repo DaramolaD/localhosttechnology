@@ -3,7 +3,7 @@ import React from "react";
 
 const MobileNavMenu = () => {
   return (
-    <nav className="w-full flex flex-col tablet:flex-row items-center gap-5">
+    <nav className="w-full flex flex-col h-fit tablet:flex-row items-center gap-5">
       {navLink.map(({ id, title, url }) => (
         <Link
           key={id}
