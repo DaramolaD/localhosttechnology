@@ -1,13 +1,14 @@
 "use client";
 import Header from "@/components/organism/Header";
 import Hero from "@/components/organism/Hero";
-import Image from "next/image";
+import Service from "@/components/organism/Service";
 
 export default function Home() {
   return (
-    <main className="relative grid gap-5">
+    <main className="relative grid">
       <Header />
       <Hero />
+      <Service />
     </main>
   );
 }
