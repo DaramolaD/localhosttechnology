@@ -3,7 +3,7 @@ import Button from "../atom/Button";
 import Image from "next/image";
 import HeroImg from "@/assets/Hero.jpg";
 import Cta from "../molecules/Cta";
-import HeroItem from "../molecules/HeroItme";
+import HeroItem from "../molecules/HeroItem";
 
 const Hero = () => {
   return (

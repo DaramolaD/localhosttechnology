@@ -41,7 +41,7 @@ const Header = () => {
         )}
       </div>
       {menuToggle && (
-        <div className="bg-[#0d121e] gap-5 h-svh grid content-start tablet:hidden w-full absolute px-5 md:px-8 pb-14 pt-[90px] top-0 left-0 bg-headerColor/100">
+        <div className="bg-[#0d121e] gap-5 h-svh grid content-start tablet:hidden w-full absolute px-5 md:px-8 pb-14 pt-[110px] top-0 left-0 bg-headerColor/100">
           <MobileNavMenu />
           <Cta
             primaryText="Book A Call"
