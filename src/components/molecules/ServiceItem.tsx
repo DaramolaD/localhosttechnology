@@ -33,7 +33,7 @@ const ServiceItem = () => {
               <div className="flex flex-col gap-5">
                 <div className="flex flex-col">
                   <h3 className="text-2xl">{service.title}</h3>
-                  <p className="text-lg">{service.description}</p>
+                  <p className="text-base">{service.description}</p>
                 </div>
                 <div className="flex px-4">
                   <ul className="text-base list-disc pl-1 md:px-4 flex flex-col gap-4">
