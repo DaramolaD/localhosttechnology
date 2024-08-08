@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../atom/Button";
 import Image from "next/image";
 import HeroImg from "@/assets/Hero.jpg";
 import Cta from "../molecules/Cta";
@@ -9,7 +8,7 @@ const Hero = () => {
   return (
     <div className="sectionContainer flex items-center justify-center h-fit relative">
       <Image alt="hero-Img" src={HeroImg} className="w-full h-full absolute" />
-      <div className="grid gap-14 md:gap-20 z-10 pt-36 md:pt-40 h-full">
+      <div className="w-full grid gap-14 md:gap-20 z-10 pt-36 md:pt-40 h-full">
         <div className="flex flex-col items-start md:items-center gap-8 text-white text-balance px-5">
           <div className="grid justify-center text-left md:text-center justify-items-center pt-0 md:pt-10 gap-3">
             <h1 className="text-3xl md:text-5xl lg:text-6xl !leading-tight text-wrap max-w-[1000px]">
@@ -38,7 +37,7 @@ const Hero = () => {
             className=""
           />
         </div>
-        <div className="flex w-full bg-black px-5 overflow-hidden">
+        <div className="flex w-full justify-center bg-black px-5 overflow-hidden">
           <HeroItem />
         </div>
       </div>
