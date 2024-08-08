@@ -10,9 +10,9 @@ const Hero = () => {
     <div className="sectionContainer flex items-center justify-center h-fit relative">
       <Image alt="hero-Img" src={HeroImg} className="w-full h-full absolute" />
       <div className="grid gap-14 md:gap-20 z-10 pt-36 md:pt-40 h-full">
-        <div className="flex flex-col gap-8 text-white text-balance px-5">
-          <div className="grid pt-0 md:pt-10 gap-3">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl !leading-tight text-wrap">
+        <div className="flex flex-col items-start md:items-center gap-8 text-white text-balance px-5">
+          <div className="grid justify-center text-left md:text-center justify-items-center pt-0 md:pt-10 gap-3">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl !leading-tight text-wrap max-w-[1000px]">
               Transform Your Business with Cutting-Edge Tech Solutions
             </h1>
             <div className="grid max-w-[800px]">
