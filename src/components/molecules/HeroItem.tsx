@@ -29,7 +29,7 @@ const HeroItem = () => {
       {items.map(({ title, description }, index) => (
         <div
         key={index}
-        className="relative px-[10px] py-6 min-w-[272px] grid gap-1 border-t border-transparent hover:before:content-[''] hover:before:absolute hover:before:left-0 hover:before:right-0 hover:before:top-0 hover:before:h-[2px] hover:before:bg-gradient-to-r hover:before:from-black hover:before:via-[#1035FA] hover:before:to-black hover:before:transition-opacity duration-300"
+        className="relative px-[10px] py-6 min-w-[272px] max-w-[272px] grid gap-1 border-t border-transparent hover:before:content-[''] hover:before:absolute hover:before:left-0 hover:before:right-0 hover:before:top-0 hover:before:h-[2px] hover:before:bg-gradient-to-r hover:before:from-black hover:before:via-[#1035FA] hover:before:to-black hover:before:transition-opacity duration-300"
       >
         <p className="text-base text-white">{title}</p>
         <p className="text-xs text-white">{description}</p>
