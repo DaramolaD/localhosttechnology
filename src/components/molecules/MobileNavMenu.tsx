@@ -1,11 +1,15 @@
 import Link from "next/link";
 import React from "react";
 
-const NavigationMenu = () => {
+const MobileNavMenu = () => {
   return (
-    <nav className="w-fit flex flex-col tablet:flex-row items-center gap-5">
+    <nav className="w-full flex flex-col tablet:flex-row items-center gap-5">
       {navLink.map(({ id, title, url }) => (
-        <Link key={id} href={url} className="w-full rounded-sm text-white text-nowrap py-2 px-3 hover:bg-white hover:text-black">
+        <Link
+          key={id}
+          href={url}
+          className="w-full rounded-sm text-white text-nowrap py-2 px-3 hover:bg-white hover:text-black"
+        >
           {title}
         </Link>
       ))}
@@ -13,7 +17,7 @@ const NavigationMenu = () => {
   );
 };
 
-export default NavigationMenu;
+export default MobileNavMenu;
 
 const navLink = [
   {

@@ -5,8 +5,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="grid gap-5">
+    <main className="relative grid gap-5">
       <Header />
+      <Hero />
     </main>
   );
 }
