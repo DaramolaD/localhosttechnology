@@ -15,7 +15,7 @@ const ServiceItem = () => {
       {services.map((service, index) => (
         <div
           key={index}
-          className={`flex flex-col md:flex-row items-stretch mb-10 rounded-3xl overflow-hidden  ${service.style} ${
+          className={`flex flex-row items-stretch mb-10 rounded-3xl overflow-hidden  ${service.style} ${
             index % 2 === 0 ? "flex-row" : "flex-row-reverse"
           }`}
         >
@@ -56,7 +56,7 @@ const ServiceItem = () => {
               </div>
             </div>
           </div>
-          <div className="relative md:flex flex-1">
+          <div className="relative hidden md:flex flex-1">
             <Image fill src={service.image} alt={`${service.title} image`} className="w-full h-full"/>
           </div>
         </div>
