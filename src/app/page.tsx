@@ -1,4 +1,5 @@
 "use client";
+import Brands from "@/components/organism/Brands";
 import Header from "@/components/organism/Header";
 import Hero from "@/components/organism/Hero";
 import Service from "@/components/organism/Service";
@@ -27,6 +28,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Service />
+        <Brands />
       </main>
     </>
   );
